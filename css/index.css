@@ -2,15 +2,44 @@
     box-sizing: border-box;
     margin: 0;padding: 0;
 }
+/* structure */
+body{
+    background-color: hsl(30, 54%, 90%);
+    flex: 1 1 auto;
+    
+    min-height: 100vh;
+    width: 100%;
+}
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+header>img{
+    display: block;
+    max-width: 80px;
 }
 nav{
-    display: flex;
-    justify-content: space-between;
+    margin: 5px;
+    background-color: white;
 }
-li{
-    list-style-type: none;
-    padding: 10px;
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+}
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+#recipe{
+    margin: auto;
+    width: 80%;
+}
+.image>img{
+    display: block;
+    width: 100%;
 }
