@@ -5,73 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>recette 1</title>
-    <link rel="stylesheet" href="/css/filet.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <div class="logo">
-        <img src="/img/odin.png" alt="odin">
-        <h3>les recettes d'odin</h3>
-    </div>
+    <header>
+        <img src="../img/odin.png" alt="odin">
+        <h1>les recettes d'odin</h1>
+    </header>
     <nav>
-        <li><a href="/index.html">home</a></li>
-        <li><a href="/recipes/recipe2.html">recette 2</a></li>
-        <li><a href="/recipes/recipe3.html">recette 3</a></li>
+        <ul>
+            <li><a href="./ommelette.html">Home</a></li>
+            <li><a href="recipes/bar.html"></a>Bar (poisson)</li>
+            <li><a href="recipes/mousse-choco-blanc.html">Mousse au chocola blanc</a></li>
+            <li><a href="recipes/lasagna.html"></a>Lasagnes</li>
+        </ul>
     </nav>
-    <div id="contenu">
-        <header>
-            <h1>filet mignon de porc à la moutarde</h1>
-        </header>
-        <main>
-            <article>
-                <table>
-                    <tr>
-                        <th>Préparation</th>
-                    </tr>
-                    <tr>
-                        <td>Temps total:</td>
-                        <td>1h05min</td>
-                    </tr>
-                    <tr>
-                        <td>Préparation:</td>
-                        <td>18min</td>
-                    </tr>
-                    <tr>
-                        <td>Cuisson:</td>
-                        <td>47min</td>
-                    </tr>
-                    <tr>
-                        <td>Difficulté:</td>
-                        <td>Très facile</td>
-                    </tr>
-                    <tr>
-                        <td>Coût</td>
-                        <td>Moyen</td>
-                    </tr>
-                </table>
-                <div class="ingredient">
-                    <h2>Ingrédients</h2>
-                    <img src="/img/beurre(1).jpg" alt="">
-                    <img src="/img/blanc(1).jpg" alt="">
-                    <img src="/img/bouillon-legumes(1).png" alt="">
-                    <img src="/img/champi(1).jpg" alt="">
-                    <img src="/img/creme-fraiche(1).jpg" alt="">
-                    <img src="/img/huile-olive(1).png" alt="">
-                    <img src="/img/filet-mignon1(1).jpg" alt="">
-                </div>
-                <p>gugiguigug</p>
-                <h2>partie 3</h2>
-                <p>ugiuguguig</p>
-            </article>
-            <aside>
-                <h3>image recette</h3>
-                <img src="/img/filet-mignon.jpg" alt="">
-                <img src="/img/filet-mignon2.jpg" alt="">
-                <img src="/img/filet-mignon3.jpg" alt="">
-            </aside>
-            <footer>
-                <p>hyftfyufyf</p>
-            </footer>
-        </main>
+    <div id="recipe">
+        <div class="image">
+            <img src="../img/filet-mignon1.jpg" alt="">
+        </div>
+        <h1 class="title">filet mignon de porc à la moutarde</h1>
+        <p class="text-title">blabla no recipe</p>
+        <div class="prep">
+            <h3 class="preparation">Preparation</h3>
+            <ul>
+                <li>Total: 1h05min</li>
+                <li>Préparation: 18min</li>
+                <li>Cuisson: 47min</li>
+            </ul>
+        </div>
+        <div class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>beurre</li>
+                <li>vin blanc sec (25cl)</li>
+                <li>bouillon legume</li>
+                <li>champignons de Paris (500g)</li>
+                <li>Crème fraiche (40cl)</li>
+                <li>Huile d'olive</li>
+                <li>Filet mignon (600-700g)</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h2 class="instruction">Instructions</h2>
+            <ol class="instruction-list">
+                <li>Couper la viande en morceaux et mettre le mélange huile + beurre à chauffer.</li>
+                <li>La faire dorer dans un mélange huile + beurre dans une cocotte.</li>
+                <li>Retirer les morceaux de la cocotte et jeter le surplus de gras.</li>
+                <li>Déglacer la cocotte avec le vin blanc, le bouillon cube, le jus des champignons et la crème (2/3 du pot).</li>
+                <li>Tartiner le filet mignon de moutarde à l'ancienne et le remettre dans la cocotte avec les champignons.</li>
+                <li>Cuire environ 30 min, à feu très doux.</li>
+                <li>En fin de cuisson, ajouter le reste de crème, saler et poivrer.</li>
+            </ol>
+            <p>Bon appétit.</p>
+        </div>
     </div>
 </body>
 </html>
